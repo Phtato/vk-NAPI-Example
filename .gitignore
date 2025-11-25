@@ -13,6 +13,7 @@
 
 # Build and IDE artifacts with absolute paths
 /build-profile.json5
+entry/build-profile.json5
 entry/build/
 entry/src/main/cpp/cmake-build-debug/
 entry/.cxx/
