@@ -12,6 +12,7 @@ struct Index {
   private context = this.getUIContext().getHostContext() as common.UIAbilityContext;
 
   aboutToAppear(): void {
+
     let sandboxPath = this.context.filesDir;
     testNapi.transferSandboxPath(sandboxPath);
     testNapi.sendResourceManagerInstance(this.context.resourceManager)
